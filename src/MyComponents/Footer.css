@@ -1,0 +1,131 @@
+.footer {
+    margin-top: 60px;
+    padding: 50px 0px;
+    background-color: #fb5849;
+    display: block;
+    width: 100%;
+}
+
+.footer .row {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-left: 10%;
+}
+
+.social-icons {
+    padding-bottom: 0;
+    padding-top: 20px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: auto;
+    color: white;
+    display: flex;
+}
+
+.social-icons li,
+a {
+    display: inline-block;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.social-icons .facebook img {
+    position: relative;
+    width: 43px;
+    height: auto;
+    padding-bottom: 5px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.footer-logo img {
+    width: 150px;
+    height: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+
+    vertical-align: middle;
+    align-items: center;
+}
+
+.footer-logo a {
+    text-align: center;
+    justify-content: center;
+
+    vertical-align: middle;
+    align-items: center;
+    margin-left: 0;
+    padding-left: 170%;
+    padding-right: 170%;
+    height: auto;
+}
+
+.footer-logo a:hover {
+    color: black;
+}
+
+.footer-left {
+    text-align: right;
+}
+
+.footer-left a {
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    justify-items: right;
+    justify-content: right;
+    align-items: center;
+
+    padding-left: 500px;
+    padding-right: 0;
+    vertical-align: middle;
+}
+
+.footer-left a:hover {
+    color: black;
+}
+
+#privacy-policy {
+    padding-bottom: 5px;
+}
+
+#copyright {
+    padding-top: 5px;
+}
+
+.footer a:hover {
+    color: black;
+}
+
+/* <-- Media Queries --> */
+
+@media only screen and (max-width: 650px) {
+    .footer-logo img {
+        width: 50%;
+        height: auto;
+    }
+
+    .footer-left a {
+        padding-left: 250px;
+        padding-right: 30px;
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .footer-logo img {
+        width: 50%;
+        height: auto;
+    }
+
+    .footer-left a {
+        padding-left: 250px;
+        padding-right: 30px;
+        text-align: right;
+    }
+}

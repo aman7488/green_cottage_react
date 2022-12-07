@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.topSection{
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Poppins';
+    width: 100%;
+}
+
+.navbar {
+    background: white;
+    padding: 1em;
+    display: flex;
+    width: 100%;
+    height: auto;
+    min-height: 80px;
+    position: fixed;
+    z-index: 1000;
+}
+Nav{
+    position: fixed;
+    background: #fff;
+    padding: 1em;
+    display: flex;
+    width: 100%;
+    height: auto;
+    min-height: 80px;
+    z-index: 1000;
+}
+
+.mobile-menu {
+    cursor: pointer;
+    display: flex;
+}
+
+.primary-nav {
+    margin-top: 1.5em;
+    display: flex;
+    place-content: space-between;
+    justify-content: space-between;
+    float: right;
+    background-color: transparent;
+}
+
+.primary-nav li {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.primary-nav li a.active {
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 5em 2em;
+}
+
+.header {
+    display: flex;
+    background-color: rgba(212, 40, 40, 0.927);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.headtext {
+    width: 100%;
+    color: white;
+    height: auto;
+    margin-bottom: 8em;
+    padding-right: 15em;
+}
+
+#head1 {
+    font-family: 'Dancing Script';
+    font-size: 4em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 3.5em;
+}
+
+#head2 {
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: .2em;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 1.5em;
+}
+
+#head3 {
+    border-style: solid;
+    border-radius: 7px;
+    background: white;
+    color: rgba(212, 40, 40, 0.927);
+    margin: 0;
+    max-width: 11em;
+    padding-top: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 2px;
+    display: inline;
+}
+
+a#reservation_link:hover {
+    color: royalblue;
+}
+
+a#reservation_link:visited {
+    text-decoration: rgba(212, 40, 40, 0.927);
+    text-decoration-color: rgba(212, 40, 40, 0.927);
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    margin-top: 7em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.pic-rest {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#int_pic {
+    position: relative;
+    width: 620px;
+    height: auto;
+    float: left;
+}
+
+
+@media only screen and (max-width: 650px) {
+    .headtext {
+        width: 50%;
+        padding-right: 0;
+        padding-left: 10px;
+        text-align: center;
+    }
+    .slider {
+        width: 100%;
+    }
+    /* .header{
+        display: block;
+    }
+    .navbar{
+        margin-top: 0;
+        padding-top: 0;
+    } */
+}

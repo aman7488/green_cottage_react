@@ -1,0 +1,179 @@
+.menu{
+    margin-top: 80px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.dash-menu {
+    position: relative;
+    font-size: 15px;
+    color: #fb5849;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-left: 40px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 2px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.dash-menu p {
+    letter-spacing: -2px;
+    color: #fb5849;
+}
+
+.dash-menu span {
+    letter-spacing: 2px;
+    margin: 0 5px;
+    color: #fb5849;
+}
+
+.menu {
+    text-align: center;
+    padding-bottom: 0;
+    justify-content: center;
+}
+
+.menu-item-carousel,
+.menu-p1,
+.menu-p2 {
+    display: flex;
+}
+
+.menu-item1,
+.menu-item2,
+.menu-item3,
+.menu-item4 {
+    width: 280px;
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin: 10px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.menu-item1 {
+    background-image: url("./Images/Menu/item1.jpg");
+}
+
+.menu-item2 {
+    background-image: url("./Images/Menu/item2.jpg");
+}
+
+.menu-item3 {
+    background-image: url("./Images/Menu/item3.jpg");
+}
+
+.menu-item4 {
+    background-image: url("./Images/Menu/item4.jpg");
+}
+
+.menu-price h3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    background: #fb5849;
+    color: white;
+    padding-top: 10px;
+    margin-top: 0px;
+    padding-left: 10px;
+    margin-left: 1px;
+}
+
+.menu-info h2{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.menu-info p{
+    padding-top: 0;
+    margin-top: 5px;
+}
+
+.menu-info {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 6px;
+    background: #fb5849;
+    color: white;
+    align-self: flex-end;
+    margin-top: 120px;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    height: 0;
+    transition: .5s ease;
+}
+
+.menu-item1:hover .menu-info {
+    bottom: 0;
+    height: 100%;
+}
+
+.menu-item2:hover .menu-info {
+    bottom: 0;
+    height: 100%;
+}
+
+.menu-item3:hover .menu-info {
+    bottom: 0;
+    height: 100%;
+}
+
+.menu-item4:hover .menu-info {
+    bottom: 0;
+    height: 100%;
+}
+
+/* <-- Media Queries --> */
+
+@media only screen and (max-width: 1000px) {
+    .menu-item-carousel {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    /* Menu */
+    .menu{
+        margin-top: 400px;
+    }
+    .menu-item-carousel {
+        display: block;
+    }
+
+    .bf-item1 p {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    /* Menu */
+    .menu-item-carousel,
+    .menu-p1,
+    .menu-p2 {
+        display: block;
+    }
+
+    .menu-item-carousel, .menu-p1,
+    .menu-p2, .menu-pack{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bf-item1 p {
+        margin-top: 0;
+    }
+
+    .menu {
+        margin-top: 20em;
+    }
+}

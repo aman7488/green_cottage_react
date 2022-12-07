@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.topButton {
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Poppins';
+}
+
+/* Back to top button */
+
+#myBtn {
+    display: block;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #fd4838;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px 15px 15px 15px;
+    margin: 0;
+    margin-left: 20px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+.chef-down img {
+    width: 40px;
+    height: auto;
+    padding-top: 10px;
+}
+
+.chef-down #fb {
+    padding-left: 10px;
+    padding-right: 10px;
+}

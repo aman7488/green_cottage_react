@@ -1,0 +1,137 @@
+.chefs {
+    padding-bottom: 0;
+    margin-bottom: 100px;
+}
+
+.dash-chefs #head-about {
+    position: relative;
+    font-size: 15px;
+    color: #fb5849;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-left: 40px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 2px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.dash-chefs p {
+    letter-spacing: -2px;
+    color: #fb5849;
+}
+
+.dash-chefs span {
+    letter-spacing: 2px;
+    margin: 0 5px;
+    color: #fb5849;
+}
+
+.chefs h1 {
+    font-weight: 2000;
+    padding-bottom: 1em;
+}
+
+.chefs {
+    display: block;
+    padding-top: 100px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.chefs .container {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.chefs .container ul {
+    display: flex;
+}
+
+.chefs .container ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.chefs img {
+    width: 300px;
+    height: auto;
+}
+
+.chefs .container #chef2,
+#chef1,
+#chef3 {
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.each-chef li {
+    border-style: solid;
+    border-color: #fb5849;
+    border-width: 1.5px;
+}
+
+.chef-down h4 {
+    padding: 0;
+    margin: 0;
+    padding: 15px 0 3px 0;
+}
+
+.chef-down span {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+
+.chef-down {
+    margin-bottom: 18px;
+}
+
+.chef-info img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* <-- Media Queries --> */
+
+@media only screen and (max-width: 650px) {
+    .chefs {
+        display: block;
+    }
+
+    .chefs .container ul {
+        display: block;
+    }
+
+    #head3 {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .chefs {
+        display: block;
+    }
+
+    .chefs .container ul {
+        display: block;
+    }
+
+    #head3 {
+        display: block;
+    }
+}

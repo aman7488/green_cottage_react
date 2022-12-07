@@ -1,0 +1,146 @@
+.week-special {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
+
+.icons-time {
+    display: flex;
+    justify-content: center;
+}
+
+#weeksBreakfast img {
+    height: auto;
+    width: 50px;
+    margin: 20px 30px 0;
+}
+
+#weeksBreakfast img:hover,
+#weeksLunch img:hover,
+#weeksDinner img:hover,
+#only-bf1,
+#only-bf2,
+#only-bf3 {
+    cursor: pointer;
+}
+
+#weeksBreakfast h3 {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 30px;
+}
+
+#weeksLunch img {
+    height: auto;
+    width: 50px;
+    margin: 20px 30px 0;
+}
+
+#weeksLunch h3 {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 30px;
+}
+
+#weeksDinner img {
+    height: auto;
+    width: 50px;
+    margin: 20px 30px 0;
+}
+
+#weeksDinner h3 {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 30px;
+}
+
+.bf-item1 {
+    display: flex;
+    margin: 20px 10px 20px;
+}
+
+.bf-item1 p {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: left;
+    margin-top: 5px;
+}
+
+#only-bf1{
+    color: #fb5849;
+}
+
+.bf-item1 .special-price {
+    background: #fb5849;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    font-size: larger;
+    margin: 0 0 0 0;
+    padding: 0 20px 0;
+}
+
+.bf-item1 img {
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+}
+
+.special-cat {
+    display: flex;
+}
+/* .special-cat2{
+    display: none;
+}
+.special-cat3{
+    display: none;
+} */
+
+.special-cat-lunch {
+    display: none;
+}
+/* .special-cat-lunch2 {
+    display: flex;
+}
+.special-cat-lunch3 {
+    display: none;
+} */
+
+.special-cat-dinner {
+    display: none;
+}
+/* .special-cat-dinner2 {
+    display: none;
+}
+.special-cat-dinner3 {
+    display: flex;
+} */
+
+/* <-- Media Queries --> */
+
+@media only screen and (max-width: 750px) {
+
+    /* Week's Special */
+    .special-cat {
+        display: block;
+    }
+
+    .bf-item1 p {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .bf-item1 p {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .bf-item1 p {
+        margin-top: 0;
+    }
+}
